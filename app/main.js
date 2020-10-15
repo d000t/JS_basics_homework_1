@@ -69,6 +69,5 @@
             final_str = String(final_str) + str%10;
             str=str.substring(0,i);
         }
-        final_str=String(final_str);
         alert(final_str);
 }
